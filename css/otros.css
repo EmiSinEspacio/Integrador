@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+main{
+    background-image: url(../assets/Img/Atomic-Heart-NORA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+footer{
+    padding: 15px;
+    position: relative;
+    background-color: rgb(30, 30, 30);
+}
+footer ul{
+    
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2%;
+    list-style: none;
+}
+footer ul li{
+    position: relative;
+
+}
+   
+   

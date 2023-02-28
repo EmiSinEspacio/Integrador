@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.formulario {
+    background: rgba(0, 0, 0, 0.507);
+    color: rgb(255, 255, 255);
+    font-family: "Yaldevi";
+    padding: 0 1.5em;
+    border-radius: 20px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.301);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+  }
+  
+  .btn {
+    background-color: #1100ff;
+    border-radius: 20px;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    cursor: pointer;
+    font-family: "Yaldevi";
+    width: 100%;
+  }
+  
+  /*color boton gradiente*/
+  .btn:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(6, 5, 79) 15%, rgb(255, 0, 0) 52%, rgb(9, 9, 121) 85%);
+  }
+  
+  .img-contacto {
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background-image: url(../assets/backgrounds/fondo3.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-left: 0.5px;
+  }
+  
+  @media (max-width: 768px) {
+    .img-contacto {
+      margin-left: 1px;
+    }
+  }
+  .icono-perfil {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  .txt-contacto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Yaldevi";
+  }
+  
+  .titulo-contacto {
+    text-align: center;
+  }
+  
+  .icono-tel {
+    margin-top: 140px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .icono-email {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  footer{
+    padding: 15px;
+    position: relative;
+    background-color: rgb(30, 30, 30);
+}
+footer ul{
+    
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2%;
+    list-style: none;
+}
+footer ul li{
+    position: relative;
+
+}
+main{
+    background-image: url(../assets/Img/11307cL47K1H2Rk4nw02nAlNVy9fOy2LHUo6DN-Ori6BfnKYG0UX1XHQPiqAeLHFH5b03GIpL2fhI2juGtTpJ56ujdgFxRTG.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    flex-wrap: wrap;
+
+    
+}
